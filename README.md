@@ -1,5 +1,11 @@
 # dev-ideaspark-esp32
 
+```
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+```
+
 * The ESP32 1.9'' LCD board has all the features of the traditional ESP32 Devkit V1 module,with the same exact peripheral ports,offers seamless integration with a 1.9-inch LCD display, eliminating the need for frustrating wires and breadboards.Display features a high-resolution 170x320 full color with ST7789 driver and is compatible with I2C interfaces. Plus,It uses Type-c usb cable to connect. Say goodbye to messy setups and hello to hassle-free electronics with the ESP32 board
 * Board is based on ESP32-WROOM-32 module integrated with Antenna switches, RF Balun, power amplifiers, low-noise amplifiers, filters, and management modules, and the entire solution occupies the least area of PCB. 2.4 GHz Wi-Fi plus BLE dual-mode chip, 16MB Flash with TSMC Ultra-low power consumption 40nm technology, power dissipation performance and RF performance is the best, safe and reliable, easy to extend to a variety of applications
 * Board uses SPI to connect LCD: D23/GPIO23->MOSI, D18/GPIO18->SCLK, D15/GPIO15->CS, D2/GPIO2->DC, D4/GPIO4->RST,D32/GPIO32->BLK.With this board,it's easy to display a variety of information and data
