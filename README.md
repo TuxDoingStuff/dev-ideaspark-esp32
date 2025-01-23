@@ -19,6 +19,8 @@ https://www.amazon.com/dp/B0D6QXC813?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 
 ## Tasmota custom `user_config_override.h`
 
+* https://github.com/benzino77/tasmocompiler
+
 ```c
 #define USE_SPI                    // Enable SPI support
 #define USE_DISPLAY                // Enable display support
