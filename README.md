@@ -48,5 +48,6 @@ https://www.amazon.com/dp/B0D6QXC813?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 ```
 
 ## References
-https://www.youtube.com/watch?v=xLC9bQUkEKM&t=29s
-https://tasmota.github.io/docs/Universal-Display-Driver/
+
+* https://www.youtube.com/watch?v=xLC9bQUkEKM&t=29s
+* https://tasmota.github.io/docs/Universal-Display-Driver/
