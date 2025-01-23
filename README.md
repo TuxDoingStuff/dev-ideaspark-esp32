@@ -45,7 +45,7 @@ https://www.amazon.com/dp/B0D6QXC813?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
     GPIO(18, GPIO_SPI_CLK)        /* GPIO18 is the Clock pin for the SPI interface. */ \
     GPIO(23, GPIO_SPI_MOSI)       /* GPIO23 is the Master-Out-Slave-In (MOSI) pin for SPI communication. */ \
     GPIO(32, GPIO_BACKLIGHT)      /* GPIO32 controls the display backlight (on/off). */ \
-    GPIO(14, GPIO_DHT22)          /* GPIO14 is configured for the DHT22 temperature and humidity sensor. */
+    GPIO(14, GPIO_AM2301)          /* GPIO14 is configured for the DHT22 temperature and humidity sensor. */
 
 #define MODULE                 ESP32_DEVKIT  // Set the device module to ESP32 DevKit.
 
