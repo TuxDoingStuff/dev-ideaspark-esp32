@@ -41,4 +41,12 @@ https://www.amazon.com/dp/B0D6QXC813?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 #define MODULE                 ESP32_DEVKIT
 
 #endif  // _USER_CONFIG_OVERRIDE_H_
+
+#ifndef USER_RULES
+#define USER_RULES "Rule3 :H,ST7789,170,320,16,SPI,1,15,18,23,2,32,4,*,80 :S,2,1,3,0,80,30 :I 01,A0 11,A0 3A,81,55 36,81,00 21,80 13,80 29,A0 :o,28 :O,29 :A,2A,2B,2C :R,36 :0,C0,23,00,00 :1,A0,00,23,01 :2,00,23,00,02 :3,60,00,23,03 :i,21,20"
+#endif
 ```
+
+## References
+https://www.youtube.com/watch?v=xLC9bQUkEKM&t=29s
+https://tasmota.github.io/docs/Universal-Display-Driver/
